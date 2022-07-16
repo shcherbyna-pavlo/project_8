@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+}
+.head {
+    width: 100%;
+    height: 700px;
+    background: #EEEFF1;
+}
+.line_one {
+    padding-left: 399px;
+    padding-top: 79px;
+    height: 16px;
+    width: 611px;
+}
+.line_one>p {
+    display: inline-block;
+    height: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.li {
+    margin-right: 38px;
+}
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    cursor: default;
+}
+h1 {
+    display: block;
+    font-size: 48px;
+    padding-left: 399px;
+    margin-top: 162px;
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 541px;
+    height: 45px;
+}
+.text1 {
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    color: #727272;
+}
+.butt {
+    display: block;
+    width: 143px;
+    height: 26px;
+    background: #34547A;
+    color: #FFFFFF;
+    padding: 20px 41px;
+    margin-left: 399px;
+    margin-top: 65px;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+/* .butt span {
+    display: inline-block;
+    width: 26px;
+    width: 143px;
+    height: auto;
+    text-decoration: none;
+    color: #FFFFFF;
+    vertical-align: middle;
+} */
+.h2_1 {
+    display: inline-block;
+    width: 403px;
+    height: 30px;
+    margin-left: 0px;
+    margin-top: 112px;
+    margin-bottom: 0;
+    margin-right: 0;
+    text-align: center;
+}
+.main_1 {
+    text-align: center;
+}
+.text2 {
+    display: inline-block;
+    width: 540px;
+    height: 67px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0;
+}
+.icons {
+    width: 100%;
+    height: 250px;
+    background: #34547A;
+    margin-top: 100px;
+}
+.main_2 {
+    width: 100%;
+    height: 1004px;
+    background: #EEEFF1;
+    text-align: center;
+}
+.h2_2 {
+    display: inline-block;
+    width: 403px;
+    height: 30px;
+    margin-left: 0px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    margin-right: 0;
+    text-align: center;
+}
+.text3 {
+    display: inline-block;
+    width: 540px;
+    height: 67px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0;
+}
+.video {
+    display: inline-block;
+    width: 1100px;
+    height: 600px;
+    background: red;
+    margin-top: 57px;
+    margin-bottom: 100px;
+}
+.foot {
+    width: 100%;
+    height: 151px;
+    background: #34547A;
+    color: #FFFFFF;
+}
