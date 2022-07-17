@@ -3,35 +3,43 @@ body {
 }
 .head {
     width: 100%;
-    height: 700px;
+    height: 257px;
+    background: #EEEFF1;
+}
+.main_0 {
+    width: 100%;
+    height: 443px;
     background: #EEEFF1;
 }
 .line_one {
-    padding-left: 399px;
+    padding-left: 20.83%;
     padding-top: 79px;
     height: 16px;
     width: 611px;
 }
-.line_one>p {
+.line_one>a {
     display: inline-block;
     height: 16px;
     margin-top: 0px;
     margin-bottom: 0px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
 }
 .li {
     margin-right: 38px;
 }
-a {
+/* a {
     text-decoration: none;
     font-size: 16px;
     color: black;
     cursor: default;
-}
+} */
 h1 {
     display: block;
     font-size: 48px;
-    padding-left: 399px;
-    margin-top: 162px;
+    padding-left: 20.83%;
+    margin-top: 0px;
     margin-right: 0;
     margin-bottom: 0;
     width: 541px;
@@ -39,7 +47,7 @@ h1 {
 }
 .text1 {
     display: inline-block;
-    margin-left: 400px;
+    margin-left: 20.83%;
     margin-top: 60px;
     margin-bottom: 0px;
     color: #727272;
@@ -51,7 +59,7 @@ h1 {
     background: #34547A;
     color: #FFFFFF;
     padding: 20px 41px;
-    margin-left: 399px;
+    margin-left: 20.83%;
     margin-top: 65px;
     margin-right: 0;
     margin-bottom: 0;
