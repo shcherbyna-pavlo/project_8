@@ -154,13 +154,15 @@ h1 {
     color: #727272;
 }
 .video {
-    position: relative;
-    /* padding-bottom: 52.45%; */
-    padding: 0 10px 52.05%;
-    height: 0;
-    overflow: hidden;
     max-width: 1130px;
     margin: 0 auto;
+    padding: 0 10px;
+}
+.video div {
+    position: relative;
+    padding-bottom: 54%;
+    height: 0;
+    overflow: hidden;
 }
 .video iframe {
     position: absolute;
