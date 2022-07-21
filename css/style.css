@@ -11,7 +11,7 @@ body {
     background: #EEEFF1;
 }
 .head_li {
-    max-width: 1120px;
+    max-width: 1140px;
     width: 100%;
     margin: 0 auto;
     padding: 79px 10px;
@@ -76,10 +76,10 @@ h1 {
     box-shadow: 1px 1px 5px #000000;
 }
 .main_1 {
-    max-width: 550px;
+    max-width: 560px;
     margin: 100px auto;
     text-align: center;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 .main_1>h2 {
     margin: 0;
@@ -132,6 +132,7 @@ h1 {
 .main {
     width: 100%;
     background: #EEEFF1;
+    padding-bottom: 100px;
 }
 .main_2 {
     max-width: 550px;
@@ -153,9 +154,20 @@ h1 {
     color: #727272;
 }
 .video {
-    max-width: 1150px;
+    position: relative;
+    /* padding-bottom: 52.45%; */
+    padding: 0 10px 52.05%;
+    height: 0;
+    overflow: hidden;
+    max-width: 1130px;
     margin: 0 auto;
-    padding: 0 20px 100px;
+}
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 .foot {
     width: 100%;
