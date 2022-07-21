@@ -21,7 +21,7 @@ body {
     list-style: none;
     margin-right: -4px;
     padding-right: 42px;
-    transition: .8s;
+    transition: text-shadow .8s;
 }
 .head_li>li:hover {
     text-shadow: 0 0 1px #000000;
@@ -70,7 +70,7 @@ h1 {
     letter-spacing: 0.1em;
     background: #34547A;
     padding: 20px 41px;
-    transition: .8s;
+    transition: box-shadow .8s;
 }
 .butt:hover {
     box-shadow: 1px 1px 5px #000000;
