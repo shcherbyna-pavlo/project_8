@@ -12,6 +12,7 @@ body {
 }
 .head_li {
     max-width: 1120px;
+    width: 100%;
     margin: 0 auto;
     padding: 79px 10px;
 }
@@ -38,6 +39,7 @@ body {
 }
 .main_0_0 {
     max-width: 1120px;
+    width: 100%;
     margin: 0 auto;
 }
 .main_0_1 {
@@ -72,7 +74,6 @@ h1 {
 }
 .butt:hover {
     box-shadow: 1px 1px 5px #000000;
-    text-shadow: 0 0 2px #ffffff;
 }
 .main_1 {
     max-width: 550px;
