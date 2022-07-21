@@ -11,14 +11,19 @@ body {
     background: #EEEFF1;
 }
 .head_li {
-    margin: 0;
-    padding: 79px 20px 79px 400px;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 79px 10px;
 }
 .head_li>li {
     display: inline-block;
     list-style: none;
     margin-right: -4px;
     padding-right: 42px;
+    transition: .8s;
+}
+.head_li>li:hover {
+    text-shadow: 0 0 1px #000000;
 }
 .head_li a {
     text-decoration: none;
@@ -31,12 +36,13 @@ body {
     width: 100%;
     background: #EEEFF1;
 }
+.main_0_0 {
+    max-width: 1120px;
+    margin: 0 auto;
+}
 .main_0_1 {
-    width: 540px;
-    margin: 0;
-    margin-left: 400px;
-    padding-top: 83px;
-    padding-bottom: 140px;
+    max-width: 550px;
+    padding: 80px 10px 140px;
 }
 h1 {
     margin: 0;
@@ -44,7 +50,7 @@ h1 {
     font-weight: 500;
     font-size: 48px;
 }
-.text1 {
+.main_0_1 p {
     margin: 0%;
     padding-bottom: 65px;
     font-weight: 400;
@@ -62,13 +68,17 @@ h1 {
     letter-spacing: 0.1em;
     background: #34547A;
     padding: 20px 41px;
+    transition: .8s;
+}
+.butt:hover {
+    box-shadow: 1px 1px 5px #000000;
+    text-shadow: 0 0 2px #ffffff;
 }
 .main_1 {
-    width: 540px;
-    margin: 0 auto;
+    max-width: 550px;
+    margin: 100px auto;
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding: 0 20px;
 }
 .main_1>h2 {
     margin: 0;
@@ -109,13 +119,13 @@ h1 {
     padding-left: 15px;
     font-weight: 400;
     font-size: 16px;
+    color: #FFFFFF;
 }
 .block0 {
     font-weight: 500;
     font-size: 21px;
 }
 .block span {
-    color: #FFFFFF;
     display: block;
 }
 .main {
@@ -123,11 +133,10 @@ h1 {
     background: #EEEFF1;
 }
 .main_2 {
-    width: 540px;
+    max-width: 550px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding: 100px 10px 50px;
 }
 .main_2>h2 {
     margin: 0;
@@ -147,22 +156,24 @@ h1 {
     margin: 0 auto;
     padding-bottom: 100px;
 }
-footer {
+.foot {
+    width: 100%;
     background: #34547A;
 }
-.foot {
-    padding: 50px 20px 50px 400px;
+.foot_1 {
+    max-width: 1120px;
+    padding: 50px 10px;
+    margin: 0 auto;
+    color: #FFFFFF;
 }
 h3 {
     margin: 0;
     font-weight: 500;
     font-size: 21px;
-    color: #FFFFFF;
     padding-bottom: 20px;
 }
-.foot>p {
+.foot_1>p {
     margin: 0;
     font-weight: 400;
     font-size: 13px;
-    color: #FFFFFF;
 }
