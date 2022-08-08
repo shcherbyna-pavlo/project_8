@@ -1,49 +1,59 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
-    font-family: 'Roboto','Helvetica Neue', Arial, Helvetica, sans-serif, sans-serif;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     background: #EEEFF1
 }
+
 .container {
     max-width: 1160px;
     margin: 0 auto;
     padding: 0 20px;
 }
+
 .head {
     width: 100%;
 }
+
 .head_li {
     list-style: none;
     margin: 0 -21px;
     padding: 75px 0;
 }
+
 .head_li>li {
     display: inline-block;
     margin-right: -4px;
     padding: 0 21px;
 }
+
 .head_li a {
     text-decoration: none;
     color: black;
     letter-spacing: 0.1em;
     transition: all .8s;
 }
+
 .head_li a:hover {
     text-shadow: 0 0 1px #34547A;
     color: #34547A;
 }
+
 .main_0 {
     width: 100%;
 }
+
 .main_0_1 {
     max-width: 550px;
     padding: 71px 0px 141px;
 }
+
 h1 {
     margin: 0;
     padding-bottom: 33px;
@@ -51,10 +61,12 @@ h1 {
     font-size: 48px;
     line-height: 79px;
 }
+
 p {
     margin: 0%;
     color: #727272;
 }
+
 .butt {
     display: inline-block;
     text-decoration: none;
@@ -66,19 +78,23 @@ p {
     margin-top: 56px;
     transition: box-shadow .8s;
 }
+
 .butt:hover {
     box-shadow: 1px 1px 5px #000000;
 }
+
 .main_1 {
     width: 100%;
     padding: 111px 0 91px;
     text-align: center;
     background: #ffffff;
 }
+
 .main_1_2 {
     max-width: 540px;
     margin: 0 auto;
 }
+
 h2 {
     margin: 0;
     padding-bottom: 40px;
@@ -86,15 +102,18 @@ h2 {
     font-size: 32px;
     line-height: 38px;
 }
+
 .icons {
     width: 100%;
     background: #34547A;
     text-align: center;
 }
+
 .icons ul {
     margin: 0 -25px;
     padding: 0;
 }
+
 .icons li {
     list-style: none;
     display: inline-block;
@@ -102,35 +121,43 @@ h2 {
     padding: 98px 25px;
     text-align: left;
 }
+
 .icons a {
     text-decoration: none;
 }
+
 [class="icon-Group"] {
     font-size: 50px;
 }
+
 .block {
     display: inline-block;
     padding-left: 15px;
     color: #FFFFFF;
 }
+
 .block0 {
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
 }
+
 .block span {
     display: block;
 }
+
 .main {
     width: 100%;
     padding-bottom: 94px;
 }
+
 .main_2 {
     max-width: 540px;
     margin: 0 auto;
     text-align: center;
     padding: 100px 0px 50px;
 }
+
 .video {
     max-width: 1110px;
     margin: 0 auto;
@@ -138,6 +165,7 @@ h2 {
     padding-bottom: 54%;
     overflow: hidden;
 }
+
 .video iframe {
     position: absolute;
     top: 0;
@@ -145,6 +173,7 @@ h2 {
     width: 100%;
     height: 100%;
 }
+
 .foot {
     width: 100%;
     background: #34547A;
@@ -153,12 +182,14 @@ h2 {
     line-height: 21px;
     padding: 50px 0;
 }
+
 h3 {
     margin: 0;
     font-weight: 500;
     font-size: 21px;
     padding-bottom: 20px;
 }
+
 .foot p {
     color: #ffffff;
 }
