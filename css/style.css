@@ -4,6 +4,9 @@
 body {
     margin: 0;
     font-family: 'Roboto','Helvetica Neue', Arial, Helvetica, sans-serif, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 }
 .head {
     width: 100%;
@@ -29,9 +32,7 @@ body {
 .head_li a {
     text-decoration: none;
     color: black;
-    font-size: 16px;
     letter-spacing: 0.1em;
-    font-weight: 400;
 }
 .main_0 {
     width: 100%;
@@ -51,13 +52,11 @@ h1 {
     padding-bottom: 60px;
     font-weight: 500;
     font-size: 48px;
+    line-height: 79px;
 }
 .main_0_1 p {
     margin: 0%;
     padding-bottom: 65px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
     color: #727272;
 }
 .butt {
@@ -65,8 +64,6 @@ h1 {
     text-decoration: none;
     color: #FFFFFF;
     text-align: center;
-    font-weight: 400;
-    font-size: 16px;
     letter-spacing: 0.1em;
     background: #34547A;
     padding: 20px 41px;
@@ -81,17 +78,15 @@ h1 {
     text-align: center;
     padding: 0 10px;
 }
-.main_1>h2 {
+h2 {
     margin: 0;
     padding-bottom: 50px;
     font-weight: 500;
     font-size: 32px;
+    line-height: 38px;
 }
 .main_1>p {
     margin: 0;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
     color: #727272;
 }
 .icons {
@@ -118,13 +113,12 @@ h1 {
 .block {
     display: inline-block;
     padding-left: 15px;
-    font-weight: 400;
-    font-size: 16px;
     color: #FFFFFF;
 }
 .block0 {
     font-weight: 500;
     font-size: 21px;
+    line-height: 25px;
 }
 .block span {
     display: block;
@@ -140,17 +134,14 @@ h1 {
     text-align: center;
     padding: 100px 10px 50px;
 }
-.main_2>h2 {
+/* .main_2>h2 {
     margin: 0;
     padding-bottom: 50px;
     font-weight: 500;
     font-size: 32px;
-}
+} */
 .main_2>p {
     margin: 0;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
     color: #727272;
 }
 .video {
@@ -189,6 +180,6 @@ h3 {
 }
 .foot_1>p {
     margin: 0;
-    font-weight: 400;
     font-size: 13px;
+    line-height: 21px;
 }
